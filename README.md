@@ -1,15 +1,14 @@
-# pacman_ufabc
+# PACMAN
 
 Feito por 
 
 Victor Cristiano do Nascimento Silva RA21080416
-
 Daniel Espindola da Silva RA 11201720555
-
 
 Ideia:
 
-Fazer um jogo Pacman andasse pelo mundo e pulasse blocos.
+Fazer um jogo 3D de pacman com visão isométrica no qual o usuário conseguisse andar pelo mundo um mundo e interagir com blocos.
+No jogo o player consegue movimentar o 
 
 
 ### Detecção de Colisão

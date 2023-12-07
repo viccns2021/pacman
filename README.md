@@ -31,3 +31,9 @@ Estrutura da rampa que colide com a bola e faz com que o jogo progrida.
 window.cpp
 
 Configura a janela e contabiliza os pontos.
+
+
+### Detecção de Colisão
+
+Para o nosso projeto foi necessário implementar um algorítmo de detecção de colisão para que pudessemos fazer o player não atravessar as caixas. Embora seja possível implementar algorítmos complexos que lidam com o formato de cada objeto, optamos por implementar uma versão super simples que detecta a colisão entre 2 caixas. Portanto aproximamos o formato do player por uma caixa de tamanho similar que envolve ele. Isso permite que a checagem seja feita com comparações logicas apenas, sem nenhuma operação geométrica.
+O Algoritmo é implementado pela função NOME que recebe a posição x,y,z da primeira box e seu tamanho, e a posição x,y,z da segunda box e seu tamanho.
